@@ -6,7 +6,7 @@
 
 Name:           golang-googlecode-gogoprotobuf
 Version:        0
-Release:        0.6.git%{shortcommit}%{?dist}
+Release:        0.7.git%{shortcommit}%{?dist}
 Summary:        A fork of goprotobuf with several extra features
 License:        BSD
 URL:            http://code.google.com/p/gogoprotobuf
@@ -52,6 +52,9 @@ done
 %files 
 %doc CONTRIBUTORS LICENSE README
 %{_bindir}/protoc-gen-gogo
+
+%files devel
+%doc CONTRIBUTORS LICENSE README
 %dir %attr(755,root,root) %{gopath}
 %dir %attr(755,root,root) %{gopath}/src
 %dir %attr(755,root,root) %{gopath}/src/code.google.com

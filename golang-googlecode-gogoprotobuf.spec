@@ -6,7 +6,7 @@
 
 Name:           golang-googlecode-gogoprotobuf
 Version:        0
-Release:        0.5.git%{shortcommit}%{?dist}
+Release:        0.6.git%{shortcommit}%{?dist}
 Summary:        A fork of goprotobuf with several extra features
 License:        BSD
 URL:            http://code.google.com/p/gogoprotobuf
@@ -23,7 +23,7 @@ Requires:       protobuf
 Requires:       golang
 Requires:       %{name}
 Summary:        A fork of goprotobuf with several extra features
-Provides:       golang(%{import_path}/proto) = %{version}-%{release}
+Provides:       golang(%{import_path}) = %{version}-%{release}
 
 %description devel
 %{summary}

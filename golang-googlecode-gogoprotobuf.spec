@@ -9,9 +9,7 @@ Release:        0.7.git%{shortcommit}%{?dist}
 Summary:        A fork of goprotobuf with several extra features
 License:        BSD
 URL:            http://code.google.com/p/gogoprotobuf
-# VCS:          https://code.google.com/p/gogoprotobuf/
-# I produced this tarball with "git archive"
-Source0:        %{name}-%{commit}.tar.gz
+Source0:        https://gogoprotobuf.googlecode.com/archive/%{commit}.tar.gz
 BuildRequires:  golang
 ExclusiveArch:  %{go_arches} noarch
 Requires:       protobuf
